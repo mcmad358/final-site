@@ -1,0 +1,79 @@
+body {
+  background-color: whitesmoke !important;
+}
+
+a:link { 
+  color: #000000; text-decoration: none;
+}
+a:visited { 
+  color: #000000; text-decoration: none;
+}
+a:hover { 
+  color: black; text-decoration: underline;
+}
+a:active {
+ color: #000000; text-decoration: none;
+}
+
+.nav a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Shift', sans-serif;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.nav span {
+  font-size: 28px;
+  color: black;
+}
+
+.nav p {
+  margin-left: 40px;
+}
+
+.aboutme img {
+  width: 200px;
+  margin-left: 100px;
+}
+
+.aboutme p {
+  margin-left: 100px;
+  margin-right: 180px;
+}
+
+.aboutme ul {
+  margin-left: 50px;
+}
+
+.aboutme  {
+  font-weight: bold;
+  font-family: 'Montserrat', 'Trebuchet MS', sans-serif;
+}
+
+.interests img {
+  width: 380px;
+  height:220px;
+  text-align: center;
+  margin-left: -5px;
+  display: inline-block;
+}
+
+.interests {
+  margin-left: 45px;
+  margin-right: 30px;
+}
+
+.footer {
+  border: solid 1px;
+  border-color: grey;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}

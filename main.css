@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+body {
+    background-color: whitesmoke !important;
+}
+
+a:link { 
+  color: #000000; text-decoration: none;
+}
+a:visited { 
+  color: #000000; text-decoration: none;
+}
+a:hover { 
+  color: black; text-decoration: underline;
+}
+a:active {
+ color: #000000; text-decoration: none;
+}
+
+.jumbotron h1 {
+  bottom: 125px;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  font-size: 48px;  
+  font-family: Arial;
+  font-weight: bold;
+  position: relative;
+  float: left;
+}
+
+.nav a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Shift', sans-serif;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+.nav li {
+  display: inline;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.nav span {
+  font-size: 28px;
+  color: black;
+}
+.nav p {
+  margin-left: 40px;
+}
+
+.jumbotron {
+  border: solid;
+  border-color: black;
+  font-family: 'Shift', sans-serif;
+  background-image:url('jumbo.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 30px;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;  
+  margin-right: 30px;
+  border-radius: 15px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+  color: white;
+  margin-left: 20px;
+}
+
+.jumbotron p {
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+  bottom: 110px;
+  margin-left: 5px;
+  margin-right: 50px;
+  font-family: Arial;
+  position: relative;
+}
+
+.jumbotron span {
+  font-size: 16px;
+}
+
+.deals h2 {
+  text-align: center;
+  clear: both;
+}
+
+.deals p {
+  text-align: center;
+  font-weight: bold;
+  clear: both;
+}
+
+.col-md-4 h2 {
+  text-align: center;
+}
+
+.col-md-4 p {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+.footer {
+	border: solid 1px;
+	border-color: grey;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
